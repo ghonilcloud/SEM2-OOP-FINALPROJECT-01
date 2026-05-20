@@ -2,7 +2,7 @@
 
 A comprehensive Java-based database management system designed to streamline operations for the First Year Program Leaders (FYPL) organization. This application provides a complete solution for managing student information, tracking disciplinary records, and organizing events.
 
-## 🎯 Overview
+## Overview
 
 The FYPL Database Management System is a sophisticated Java application that manages three interconnected databases:
 
@@ -12,7 +12,7 @@ The FYPL Database Management System is a sophisticated Java application that man
 
 The system provides a CLI-based interface with a menu-driven design for easy navigation and operation. It implements OOP principles with abstract classes, interfaces, and inheritance to ensure clean, maintainable code.
 
-## ✨ Features
+## Features
 
 ### Student Management
 - **View All Students** - Display complete list of FYPL members with all details
@@ -51,7 +51,7 @@ The system provides a CLI-based interface with a menu-driven design for easy nav
 - Error handling with user-friendly messages
 - Invalid input recovery with retry mechanisms
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Design Patterns Used
 
@@ -62,7 +62,7 @@ DatabaseOperation (Abstract Base Class)
     └── EventDatabaseOperation (implements Viewable)
 ```
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **Java JDK 8 or higher**
 - **MySQL Server 5.7+**
@@ -94,7 +94,7 @@ export CLASSPATH=$CLASSPATH:path/to/mysql-connector-java-x.x.x.jar
 javac main.java
 ```
 
-## 📊 Database Configuration
+## Database Configuration
 
 ### Import CSV Files to MySQL
 
@@ -169,7 +169,7 @@ fyplDatabaseOperation = new FYPLDatabaseOperation(
 - Username: Your MySQL username
 - Password: Your MySQL password
 
-## 🚀 Usage
+## Usage
 
 ### Running the Application
 
@@ -177,6 +177,6 @@ fyplDatabaseOperation = new FYPLDatabaseOperation(
 java Main
 ```
 
-## 🤝 Contributing
+## Contributing
 
 This is a student project for SEM2 OOP Final Project. 
